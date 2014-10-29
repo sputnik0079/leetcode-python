@@ -10,8 +10,7 @@ Linked List Cycle II
 Solution
 ---------
 
-```
-
+```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
