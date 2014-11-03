@@ -29,7 +29,7 @@ class Solution:
             res = carry
             res += l1.val if l1 else 0
             res += l2.val if l2 else 0
-            carry, res = res / 10, res % 10
+            carry, res = res/10, res%10
             curr.next = ListNode(res)
             
             l1 = l1.next if l1 else None
